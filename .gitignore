@@ -32,3 +32,49 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+
+# Ignore bundler's local gems
+/vendor/bundle
+
+# Ignore Rails log and tmp files
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# Ignore uploaded files (if you use ActiveStorage locally)
+/storage/*
+!/storage/.keep
+
+# Ignore SQLite databases (unless you want them tracked)
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Ignore node/yarn dependencies
+/node_modules
+/yarn-error.log
+
+# Ignore compiled assets
+/public/assets
+/public/packs
+/public/packs-test
+/public/packs/*
+
+# Ignore .byebug history (debugger)
+/.byebug_history
+
+# Ignore editor/OS files
+.DS_Store
+*.swp
+*.swo
+
+# Ignore dotenv environment variables
+.env
+.env.*
+
+# Ignore coverage reports
+/coverage/
+
+# Ignore Spring server PID file
+/tmp/pids/
